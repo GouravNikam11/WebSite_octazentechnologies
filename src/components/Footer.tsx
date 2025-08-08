@@ -40,7 +40,13 @@ const Footer: React.FC = () => {
               className="lg:col-span-1"
             >
               <div className="mb-6">
-                <Logo size="md" showText={true} className="text-white" />
+                {/* <Logo size="md" showText={true} className="text-white" /> */}
+                    <img
+                      src="/ot.png"
+                      width={"200px"}
+                      alt="Octazen Logo"
+                      className="w-fulls h-full object-contain"
+                    />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Empowering businesses with innovative technology solutions. 
@@ -49,15 +55,15 @@ const Footer: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-gray-300">
                   <Mail size={18} />
-                  <span>contact@octazen.com</span>
+                  <span>contact@octazentechnologies.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300">
                   <Phone size={18} />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 989 098 3532</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300">
                   <MapPin size={18} />
-                  <span>San Francisco, CA</span>
+                  <span>Kolhapur, MH</span>
                 </div>
               </div>
             </motion.div>
@@ -141,17 +147,17 @@ const Footer: React.FC = () => {
           >
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm">
-                © {currentYear} Octazen Technologies LLP. All rights reserved.
+                © {currentYear} Octazen Technologies. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <Link
-                  to="/privacy"
+                  to="#"
                   className="text-gray-400 hover:text-white text-sm transition-colors"
                 >
                   Privacy Policy
                 </Link>
                 <Link
-                  to="/terms"
+                  to="#"
                   className="text-gray-400 hover:text-white text-sm transition-colors"
                 >
                   Terms of Service

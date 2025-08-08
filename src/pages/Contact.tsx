@@ -50,20 +50,20 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'contact@octazen.com',
-      link: 'mailto:contact@octazen.com',
+      value: 'contact@octazentechnologies.com',
+      link: 'mailto:contact@octazentechnologies.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91 989 098 3532',
+      link: 'tel:+919890983532',
     },
     {
       icon: MapPin,
       title: 'Address',
-      value: 'San Francisco, CA 94105',
-      link: 'https://maps.google.com/?q=San+Francisco+CA',
+      value: 'Kolhapur, MH',
+      link: '#',
     },
   ];
 
@@ -236,30 +236,7 @@ const Contact: React.FC = () => {
                 ))}
               </div>
 
-              {/* Office Hours */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                viewport={{ once: true }}
-                className="mt-12 p-6 bg-gradient-to-br from-octazen-700 to-octazen-900 rounded-xl text-white"
-              >
-                <h3 className="text-xl font-bold mb-4">Office Hours</h3>
-                <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span>9:00 AM - 6:00 PM PST</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span>10:00 AM - 4:00 PM PST</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sunday</span>
-                    <span>Closed</span>
-                  </div>
-                </div>
-              </motion.div>
+           
             </motion.div>
           </div>
         </div>

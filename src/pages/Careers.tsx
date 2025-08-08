@@ -138,64 +138,7 @@ const Careers: React.FC = () => {
         </div>
       </section>
 
-      {/* Open Positions */}
-      <section className="section-padding gradient-bg">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Open Positions
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our current openings and find the perfect role for your skills and career goals.
-            </p>
-          </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {openPositions.map((position, index) => (
-              <motion.div
-                key={position.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -5 }}
-                className="bg-white rounded-xl p-8 shadow-lg card-hover"
-              >
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-bold text-gray-900">
-                    {position.title}
-                  </h3>
-                  <span className="bg-octazen-100 text-octazen-800 px-3 py-1 rounded-full text-sm font-medium">
-                    {position.type}
-                  </span>
-                </div>
-                <div className="flex items-center space-x-4 mb-4 text-sm text-gray-600">
-                  <span>{position.location}</span>
-                  <span>•</span>
-                  <span>{position.department}</span>
-                </div>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {position.description}
-                </p>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-octazen-700 text-white py-2 px-6 rounded-lg hover:bg-octazen-800 transition-colors duration-300 flex items-center space-x-2"
-                >
-                  <span>Apply Now</span>
-                  <ArrowRight size={16} />
-                </motion.button>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section className="section-padding bg-white">
@@ -226,7 +169,7 @@ const Careers: React.FC = () => {
               </motion.a>
               
               <p className="text-gray-500 mt-4">
-                Email us at: <span className="text-octazen-800 font-medium">careers@octazen.com</span>
+                Email us at: <span className="text-octazen-800 font-medium">careers@octazentechnologies.com</span>
               </p>
             </motion.div>
           </div>

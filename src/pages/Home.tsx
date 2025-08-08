@@ -54,8 +54,8 @@ const Home: React.FC = () => {
   ];
 
   const stats = [
-    { number: '500+', label: 'Projects Completed' },
-    { number: '50+', label: 'Happy Clients' },
+    { number: '25+', label: 'Projects Completed' },
+    { number: '13+', label: 'Happy Clients' },
     { number: '24/7', label: 'Support Available' },
     { number: '99%', label: 'Client Satisfaction' },
   ];
@@ -63,18 +63,18 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center gradient-bg overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-octazen-50 via-white to-octazen-50"></div>
-        <div className="container-custom relative z-10">
+      <section className="relative min-h-screen flex items-center justify-center gradient-bg overflow-hidden mt-4">
+        <div className="absolute inset-0 bg-gradient-to-br from-octazen-50 via-white to-octazen-50 mt-4"></div>
+        <div className="container-custom relative z-10 mt-4">
           <div className="text-center">
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6"
+              className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6"
             >
               Transforming Ideas Into
-              <span className="text-octazen-800 block">Digital Reality</span>
+              <span className="text-octazen-500 block">Digital Reality</span>
             </motion.h1>
             
             <motion.p

@@ -43,22 +43,7 @@ const Industries: React.FC = () => {
       color: 'bg-red-500',
       image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop',
     },
-    {
-      icon: GraduationCap,
-      title: 'Education',
-      description: 'Digital learning platforms, student management systems, and educational technology solutions.',
-      solutions: ['Learning Management Systems', 'Student Portals', 'Online Assessment Tools', 'Virtual Classrooms'],
-      color: 'bg-purple-500',
-      image: 'https://images.unsplash.com/photo-1523240794102-9ebd0dea756e?w=600&h=400&fit=crop',
-    },
-    {
-      icon: Heart,
-      title: 'Healthcare',
-      description: 'Healthcare technology solutions for patient care, medical records, and telemedicine.',
-      solutions: ['Electronic Health Records', 'Telemedicine Platforms', 'Patient Portals', 'Medical Analytics'],
-      color: 'bg-pink-500',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop',
-    },
+    
     {
       icon: DollarSign,
       title: 'Finance',
@@ -102,8 +87,8 @@ const Industries: React.FC = () => {
   ];
 
   const stats = [
-    { number: '15+', label: 'Industries Served' },
-    { number: '200+', label: 'Projects Delivered' },
+    { number: '5+', label: 'Industries Served' },
+    { number: '25+', label: 'Projects Delivered' },
     { number: '95%', label: 'Client Satisfaction' },
     { number: '24/7', label: 'Support Available' },
   ];

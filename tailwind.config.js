@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Inter', 'Roboto', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
+        ysabeau: ['Ysabeau Infant', 'sans-serif'],
       },
       colors: {
         octazen: {
@@ -15,10 +16,10 @@ module.exports = {
           200: '#bcccdc',
           300: '#9fb3c8',
           400: '#829ab1',
-          500: '#627d98',
-          600: '#486581',
-          700: '#334e68',
-          800: '#312E81', // Exact logo color
+          500: '#246a9b',
+          600: '#246a9b',
+          700: '#246a9b',
+          800: '#246a9b', // Exact logo color
           900: '#1a202c',
         }
       },
