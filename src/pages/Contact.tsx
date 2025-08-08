@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91 989 098 3532',
+      value: '+91 989 098 3532', 
       link: 'tel:+919890983532', 
     },
     {
